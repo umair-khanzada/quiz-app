@@ -1,0 +1,28 @@
+# Packages #
+node_modules
+
+# Log files #
+npm-debug.log
+.cache
+
+# Build files #
+coverage
+dist
+
+# OS generated files #
+.vscode
+.idea
+
+# Other files #
+licenses
+*.pem
+.tern-port
+.cache-loader
+.eslintcache
+.DS_Store
+cypress/videos
+cypress/screenshots
+jest_html_reporters.html
+*.hprof
+*.xcuserstate
+.env

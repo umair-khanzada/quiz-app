@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "common/*": ["src/common/*"],
+      "components/*": ["src/components/*"],
+      "default-props/*": ["src/default-props/*"],
+      "proptypes/*": ["src/proptypes/*"],
+      "scripts/*": ["src/scripts/*"],
+      "routes/*": ["src/routes/*"],
+      "theme/*": ["src/theme/*"],
+      "features/*": ["src/features/*"],
+      "actions/*": ["src/redux/actions/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["./node_modules/cypress", "cypress/**/*.js"]
+}
