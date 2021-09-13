@@ -1,6 +1,7 @@
 const RouteNames = {
+  Home: '/',
   Score: '/score',
-  Home: '/home',
+  Question: '/Question',
 };
 
 export default RouteNames;

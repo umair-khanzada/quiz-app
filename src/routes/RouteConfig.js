@@ -12,5 +12,9 @@ export default {
       path: RouteNames.Home, // '/Home', //
       component: loadable(() => import('../features/Home')),
     },
+    {
+      path: RouteNames.Question, // '/Home', //
+      component: loadable(() => import('../features/Question')),
+    },
   ],
 };

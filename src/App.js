@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        Quiz App
+        Quiz App nav bar will come here
         {route}
       </Router>
     </div>
