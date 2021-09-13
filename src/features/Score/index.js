@@ -1,5 +1,5 @@
 function Score() {
-  return <div>scoreeeee</div>;
+  return <div>score page</div>;
 }
 
 export default Score;

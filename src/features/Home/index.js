@@ -1,5 +1,5 @@
 function Score() {
-  return <div>quuuuuuuiz app</div>;
+  return <div>home page</div>;
 }
 
 export default Score;
