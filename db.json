@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment 2",
+      "postId": 1
+    }
+  ],
+  "quizquestion": [
+    {
+      "quizId": "28bcc886-de28-4cbe-84d2-f78c082b94df",
+      "question": "who are you",
+      "options": {
+        "optionA": "owais",
+        "optionB": "mud",
+        "optionC": "har",
+        "optionD": "moiz"
+      },
+      "correctOption": "optionA",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

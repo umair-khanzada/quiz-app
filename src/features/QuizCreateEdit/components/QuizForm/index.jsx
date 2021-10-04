@@ -48,10 +48,21 @@ export default function QuizForm() {
     updateFormData(updatedFormData);
   };
 
-  const handleCreateQuiz = (ev) => {
+  const handleCreateQuiz =async (ev) => {
     ev.preventDefault();
     const newQuiz = new Quiz(formData);
     const updatedQuizList = [...quizList, newQuiz];
+    console.log('newQuiz: ', newQuiz);
+    const res = await fetch('http://localhost:5000/quizquestion', {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify(newQuiz),
+    })
+    const data = await res.json()
+    console.log('data: ', data);
+  
     updateQuizList(updatedQuizList);
     updateFormData(initialFormState());
   };
